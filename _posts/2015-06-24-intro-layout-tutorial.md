@@ -47,8 +47,8 @@ type-speed: 10 # Default 10
 start-delay: 200 # Default 200
 delete-delay: 5000 # Default 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "I'm Readono, you can call me 芽孢八叠球菌 too."
+  - text: "不疯魔不成活，To obsess or to die"
 </code></pre>
 
 <small>Many thanks to <a href="https://github.com/prashantsolanki3" target="blank">@prashantsolanki3</a> for the dynamic typing feature!</small>
