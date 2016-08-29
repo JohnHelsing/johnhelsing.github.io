@@ -1,10 +1,23 @@
+<div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="https://readono.github.io/{{ page.url }}"></div>
 
- <!-- 多说评论框 start -->
- <div>多说评论框</div>
-  <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="https://readono.github.io/{{ page.url }}"></div>
-<!-- 多说评论框 end -->
+<style type="text/css">
+#ds-thread.ds-thread {
+  #ds-reset {
+    .ds-comments-info {
+      .ds-comments-tabs {
+        li.ds-tab {
+          .ds-comments-tab-weibo {
+            display: none;
+          }
+        }
+      }
+    }
+    .ds-powered-by {
+      display: none;
+    }
+  }
+}</style>
 
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
   var duoshuoQuery = {short_name:"readono"};
    (function() {
@@ -14,5 +27,7 @@
      ds.charset = 'UTF-8';
      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
+    $(document).on('click', '#ds-thread textarea[name=message]', function(){
+    $('#ds-sync-checkbox').prop('checked', false);
+    });
  </script>
-<!-- 多说公共JS代码 end -->
