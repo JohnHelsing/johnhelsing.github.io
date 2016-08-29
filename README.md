@@ -32,7 +32,6 @@ You can watch it in action [here](https://panossakkos.github.io/personal-jekyll-
   * Gesture navigation in archive and post pages by swiping
   * Hashtags
   * Categories
-  * Disqus comments
   * Bootstrap share buttons
   * RSS feed
 * Author blurb under the posts
