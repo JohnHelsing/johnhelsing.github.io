@@ -1,23 +1,5 @@
 <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="https://readono.github.io/{{ page.url }}"></div>
 
-<style type="text/css">
-#ds-thread.ds-thread {
-  #ds-reset {
-    .ds-comments-info {
-      .ds-comments-tabs {
-        li.ds-tab {
-          .ds-comments-tab-weibo {
-            display: none;
-          }
-        }
-      }
-    }
-    .ds-powered-by {
-      display: none;
-    }
-  }
-}</style>
-
 <script type="text/javascript">
   var duoshuoQuery = {short_name:"readono"};
    (function() {
@@ -27,7 +9,10 @@
      ds.charset = 'UTF-8';
      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
-    $(document).on('click', '#ds-thread textarea[name=message]', function(){
-    $('#ds-sync-checkbox').prop('checked', false);
-    });
  </script>
+
+ <script type="text/javascript">    
+ 	$(document).on('click', '#ds-thread textarea[name=message]', function(){
+ 	$('#ds-sync-checkbox').prop('checked', false);
+	});
+ </script>>
