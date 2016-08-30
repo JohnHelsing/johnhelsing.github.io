@@ -113,12 +113,10 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/spidertocat.png"
     date: "August 2016 - Today"
-    description: "成立了我的个人博客!"
-    description: "Creat my page!"
+    description: "成立了我的个人博客!       Creat my page!"
   - image: "/img/timeline/baracktocat.jpg"
     date: "September 2012 - May 2016"
-    description: "作为一名生物菌潜心学习编程技术."
-    description: "Start coding meanwhile being a bio-student."
+    description: "作为一名生物菌潜心学习编程技术.         Start coding meanwhile being a bio-student."
 
 # First image of the Timeline
 
