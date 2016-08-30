@@ -7,15 +7,19 @@
     <i id="hand-swipe" class="fa fa-hand-o-up"></i>
     <p><strong>
     {% if page.section-type == "blog" %}
+      可以通过左右滑动来浏览不同的文章页哈！
       Did you know that you can navigate the archive pages by swiping left and right?
     {% elsif page.section-type == "post" %}
+    可以通过左右滑动来浏览不同的文章页哈！
       Did you know that you can navigate the posts by swiping left and right?
     {% endif %}
     </strong></p>
     <button type="button" class="btn btn-default ok-btn close-swipe-instruction">
       {% if page.section-type == "blog" %}
+        搞定！
         Got it!
       {% elsif page.section-type == "post" %}
+        酷毙了！
         Awesome!
       {% endif %}
     </button>

@@ -112,11 +112,11 @@ syntax-highlight: True
 
 events:
   - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
+    date: "August 2016 - Today"
+    description: "成立了我的个人博客!"
   - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+    date: "September 2012 - May 2016"
+    description: "作为一名生物菌潜心学习编程技术"
 
 # First image of the Timeline
 
@@ -136,7 +136,7 @@ email: "readonobestin@gmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Readono is a awsome person!."
+author_blurb: "秉承不疯魔不成活，做一个自由的开发菌！"
 author_blurb_image: "/img/author.png"
 
 ##################
