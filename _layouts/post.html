@@ -38,6 +38,10 @@
 
           {% if jekyll.environment == "production" %}
           {% include comments.html %}
+          <script type="text/javascript">    
+           $(document).on('click', '#ds-thread textarea[name=message]', function(){
+           $('#ds-sync-checkbox').prop('checked', false);
+           });</script>>
           {% endif %}
 
 
