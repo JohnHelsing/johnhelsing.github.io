@@ -19,3 +19,20 @@ $navbar-lg-background: transparent;
 $navbar-sm-background-color: $navbar-lg-collapse-background-color;
 
 $social-buttons-color: $secondary-color;
+
+#ds-thread.ds-thread {
+  #ds-reset {
+    .ds-comments-info {
+      .ds-comments-tabs {
+        li.ds-tab {
+          .ds-comments-tab-weibo {
+            display: none;
+          }
+        }
+      }
+    }
+    .ds-powered-by {
+      display: none;
+    }
+  }
+}

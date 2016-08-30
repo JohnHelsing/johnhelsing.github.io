@@ -9,10 +9,7 @@
      ds.charset = 'UTF-8';
      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
- </script>
-
- <script type="text/javascript">    
- 	$(document).on('click', '#ds-thread textarea[name=message]', function(){
+    document.on('click', '#ds-thread textarea[name=message]', function(){
  	$('#ds-sync-checkbox').prop('checked', false);
 	});
- </script>>
+ </script>
