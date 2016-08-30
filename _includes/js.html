@@ -126,6 +126,12 @@ function addTohistory() {
 }
 </script>
 
+<script type="text/javascript">    
+$(document).on('click', '#ds-thread textarea[name=message]', function(){
+$('#ds-sync-checkbox').prop('checked', false);
+});
+</script>>
+
 <!-- Gesture Navigation / Swipe Instruction Start -->
 {% if site.enable-gesture-navigation %}
 
